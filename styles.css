@@ -1,0 +1,24 @@
+.qucard {
+  width: 450px;
+  height: 350px;
+  border: 1px solid blue;
+  border-style: groove;
+  border-radius: 10px;
+  font-size: 50px;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0px auto;
+}
+
+h1 {
+  border: 1px solid greenyellow;
+  display: flex;
+  justify-content: center;
+}
+
+.abutton {
+  height: 5rem;
+  width: 15rem;
+}
