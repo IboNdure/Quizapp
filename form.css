@@ -50,3 +50,15 @@ body {
     #ffffff 100%
   );
 }
+.show-answer-btn {
+  font-size: large;
+  height: 5rem;
+  width: 15rem;
+  align-self: center;
+}
+.answer {
+  font-size: large;
+  height: 5rem;
+  width: 15rem;
+  align-self: center;
+}

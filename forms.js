@@ -30,7 +30,7 @@ document.addEventListener("DOMContentLoaded", () => {
           <div class="answer" style="display: none;">
             <p>${answer}</p>
           </div>
-          <button>${tag}</button>
+          ${tag}
         `;
 
       // Füge die neue Karte vor dem Nav-Element ein
