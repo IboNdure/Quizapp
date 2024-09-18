@@ -1,15 +1,12 @@
 * {
   padding: 0;
   margin: 0;
-color: rgb(158, 207, 11);
+  color: rgb(158, 207, 11);
 }
 
-
-
-body.dark{
+body.dark {
   background-color: rgb(43, 41, 44);
-  
-  }
+}
 .qucard {
   width: 100%;
   height: 300px;
@@ -23,10 +20,9 @@ body.dark{
   justify-content: center;
   margin: 0px auto;
 }
-h1{
-display: flex;
-justify-content: center;
-
+h1 {
+  display: flex;
+  justify-content: center;
 }
 h2 {
   border: 1px solid greenyellow;
@@ -34,10 +30,11 @@ h2 {
   justify-content: center;
 }
 
-.abutton {
+.show-answer-btn {
   font-size: large;
   height: 5rem;
   width: 15rem;
+  align-self: center;
 }
 
 .answer button {
@@ -56,7 +53,6 @@ h2 {
   flex-direction: column;
   justify-content: center;
   margin: 0px auto;
-  border
 }
 
 main {
@@ -75,73 +71,56 @@ main {
   position: fixed;
 }
 
-.profilpicture{
-width: 20rem;
-
-
-
+.profilpicture {
+  width: 20rem;
 }
 
-.pp{
-border: 2px solid blue;
-display: flex;
-flex-direction: row;
-justify-content: center;
-
-
-
+.pp {
+  border: 2px solid blue;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 .aboutme {
-display: flex;
-flex-direction: column;
-text-align: center;
-
-
+  display: flex;
+  flex-direction: column;
+  text-align: center;
 }
 
-.logoflex{
-border: 2px solid;
-display: flex;
-flex-direction: row;
-justify-content: space-evenly;
-
-
-
+.logoflex {
+  border: 2px solid;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
-.setting{
-width: 100%;
-
-
-
-
-
-
-
+.setting {
+  width: 100%;
 }
 
-.bsetting{
-display: flex;
-justify-content: center;
-
-
-}
-.dark{
+.bsetting {
   display: flex;
   justify-content: center;
-
-
-
-
 }
-.footer{
-display: flex;
-justify-content: space-evenly;
-position: sticky;
-bottom: 0;
-
-
-
-
+.dark {
+  display: flex;
+  justify-content: center;
+}
+.footer {
+  display: flex;
+  justify-content: space-evenly;
+  position: sticky;
+  bottom: 0;
+}
+.answer {
+  display: block;
 }
 
+.hidden {
+  display: none;
+}
+
+.bookmarkButton {
+  display: flex;
+  border: none;
+}
