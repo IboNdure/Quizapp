@@ -1,3 +1,8 @@
+* {
+  background-color: #08aeea;
+  background-image: linear-gradient(0deg, #08aeea 0%, #2af598 100%);
+}
+
 fieldset {
   display: flex;
   justify-content: center;
@@ -14,16 +19,14 @@ fieldset {
 h1 {
   text-align: center;
 }
-
 .submitFlex {
   display: flex;
   justify-content: center;
   z-index: 100;
 }
 .qucard {
-  width: 100%;
+  width: 60%;
 
-  border: 2px solid blue;
   border-style: groove;
   border-radius: 10px;
   font-size: 40px;
@@ -39,17 +42,6 @@ h1 {
   border: none;
 }
 
-body {
-  background-color: #ffffff;
-  background-image: linear-gradient(
-    180deg,
-    #ffffff 0%,
-    #6284ff 24%,
-    #ff0000 49%,
-    #ffffff 75%,
-    #ffffff 100%
-  );
-}
 .show-answer-btn {
   font-size: large;
   height: 5rem;
